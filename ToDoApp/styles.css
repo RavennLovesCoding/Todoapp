@@ -1,9 +1,9 @@
 :root {
-    --background: #386641;
-    --primary-color: #6a994e;
-    --secondary-color: #a7c957;
-    --accent-color: #bc4749;
-    --text-color: #f2e8cf;
+    --background: #f9e6ed;
+    --primary-color: #fdc5da;
+    --secondary-color: #f18db4;
+    --accent-color: #fe63a6;
+    --text-color: #fc4c9b;
 }
 * {
     margin: 0;
@@ -37,4 +37,15 @@ h1{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+#todo-input {
+    box-sizing: border-box;
+    padding: 12px 20px;
+    width: 100%;
+    background: none;
+    border: 2px solid var(--secondary-color);
+    border-radius: 1000px;
+    font: inherit;
+    color: var(--text-color);
+    caret-color: var(--accent-color);
 }
